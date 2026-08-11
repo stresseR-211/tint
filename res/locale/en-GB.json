@@ -1,0 +1,122 @@
+{
+	"system": {
+		"version": "Version:",
+		"button": ["X", "Yes", "No", "Got it", "Play", "Description"]
+	},
+	"settings": {
+		"title": "Settings",
+		"width": "Width:",
+		"height": "Height:",
+		"volumeMus": "Music volume:",
+		"volumeSnd": "SFX volume:",
+		"sensitivity": "Mouse sensitivity:",
+		"controls": ["Controls:", "Up:", "Left:", "Down:", "Right:", "Dash:", "Graze:", "Shoot:"],
+		"language": "Language:",
+		"vsync": "V-sync:",
+		"ldm": "Low detail mode:"
+	},
+	"credits": {
+		"title": "Credits",
+		"engine": "Engine:",
+		"programming": "Programming:",
+		"sprites": "Sprites:",
+		"visuals": "Visuals:",
+		"stage": "Level design:",
+		"music": "Music:",
+		"sounds": "Sounds:",
+		"story": "Story & narrative:",
+		"testing": "QA testing:",
+		"locale": "Localisation:",
+		"mentalSupport": "Mental support:",
+		"thanks": "Thank you for playing!"
+	},
+	"menuMain": {
+		"menu": ["START", "STAGE SELECT", "SETTINGS", "CREDITS", "QUIT"],
+		"start": {
+			"title": "Select difficulty:",
+			"menu": ["TOURIST", "AVERAGE", "SILENT"],
+			"descPopup": [
+				"A gamemode intended for inexperienced housewives. You have infinite lives, and everything is nerfed into oblivion. Also the blood is replaced with rainbows.",
+				"Hard enough, provides a relatively fair challenge to the players. You have 3 lives, oughtta be enuff.",
+				"One mistake, and you're mistaken. No SFX."
+			],
+			"nothingSelected": "You haven't chosen the difficulty.",
+			"playPopup": "You're about to start a new game. Proceed?",
+			"trackTitle": "NemesisTheory -> Amaranthine"
+		},
+		"stageSelect": {
+			"locked": "You have to beat the game before using this menu.",
+			"unlocked": "Congratulations, a winner is you! You can now <s>play as Luigi</s> replay any stage you like.",
+			"title": "Select the stage you wish to replay:",
+			"stages": [
+				"Forest", "Forest (Boss)",
+				"River", "River (Boss)",
+				"Wasteland", "Wasteland (Boss)",
+				"Military checkpoint", "Military checkpoint (Boss)",
+				"Zeta Complex", "Zeta Complex (Boss)",
+				"Secret lab", "Secret lab (Boss)"
+			],
+			"stagesMusic": [
+				"NemesisTheory -> An Army of One", "NemesisTheory -> Rose At Dawn",
+				"NemesisTheory -> Rose At Meridiem", "NemesisTheory -> Russian Roulette",
+				"NemesisTheory -> Sincere Serenity", "NemesisTheory -> Asian Temptation",
+				"NemesisTheory -> Assimilation", "NemesisTheory -> Rising Sun",
+				"NemesisTheory -> Turn of Tides", "NemesisTheory - Weeping Demon",
+				"NemesisTheory -> Heavenly Horrors", "Dimrain47 -> Through the Gates"
+			],
+			"nothingSelected": "You haven't chosen the stage to replay.",
+			"playPopup": "You're about to replay the selected stage. Proceed?"
+		},
+		"quitPopup": "You're about to close the game. Proceed?"
+	},
+	"menuPause": {
+		"title": "Game paused.",
+		"menu": ["CONTINUE", "SETTINGS", "DEBUG", "CREDITS", "QUIT"],
+		"quitPopup": "You're about to quit to main menu. Proceed?"
+	},
+	"stageGeneric": {
+		"sidePanel": {
+			"fps": "FPS:",
+			"difficulty": "Difficulty:",
+			"highScore": "High score:",
+			"totalScore": "Total score:",
+			"grazeScore": "Graze score:",
+			"lives": "Lives:",
+			"power": "Power:",
+			"dash": "Dash cooldown:"
+		},
+		"popup": {
+			"stageClear": "[[STAGE CLEAR]]",
+			"time": "Time:",
+			"bonus": "Bonus:"
+		},
+		"bonusFailed": "Bonus failed!",
+		"wasted": "[[WASTED]]"
+	},
+	"stageForest": {
+		"stageMusic": "NemesisTheory -> An Army of One",
+		"title": "~ The Forest ~",
+		"dialogue": [
+			"Ahh, after the mild night rain the atmosphere is still refreshing...",
+			"A perfect time to get some mushrooms!",
+			"Not so fast, bucko! You still owe me 20 euros!",
+			"Dammit, not you again... I told you i'm gonna return it at the end of the week!",
+			"You've been telling me the same tale a week ago. And two weeks ago...",
+			"So where's the money, Aster? Answer me.",
+			"Listen, Kate, i really have to go. I promise i'll bring the money later.",
+			"Nuh-uh. I'm either getting my money now or you're getting six feet under!",
+			"Resorting to violence, eh? Well, so be it."
+		]
+	},
+	"stageForestBoss": {
+		"stageMusic": "NemesisTheory -> Rose At Dawn",
+		"title": "",
+		"dialogue": [
+			"Well, turns out i was stronger than you.",
+			"Huff, puff... I guess you won. But just this once!",
+			"And don't act like you're tough and shit! I <i>am</i> getting my money back next time!",
+			"Of course. But no need to get agressive again.",
+			"See ya, Kate."
+		]
+	}
+}

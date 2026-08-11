@@ -1,0 +1,122 @@
+{
+	"system": {
+		"version": "バージョン:",
+		"button": ["X", "はい", "いいえ", "了解", "プレイ", "説明"]
+	},
+	"settings": {
+		"title": "設定",
+		"width": "幅:",
+		"height": "高さ:",
+		"volumeMus": "BGM音量:",
+		"volumeSnd": "SFX音量:",
+		"sensitivity": "マウス感度:",
+		"controls": ["操作:", "上:", "左:", "下:", "右:", "ダッシュ:", "グレイズ:", "ショット:"],
+		"language": "言語:",
+		"vsync": "垂直同期:",
+		"ldm": "低詳細モード:"
+	},
+	"credits": {
+		"title": "クレジット",
+		"engine": "エンジン:",
+		"programming": "プログラム:",
+		"sprites": "スプライト:",
+		"visuals": "ビジュアル:",
+		"stage": "ステージデザイン:",
+		"music": "音楽:",
+		"sounds": "効果音:",
+		"story": "ストーリー＆シナリオ:",
+		"testing": "QAテスト:",
+		"locale": "ローカライズ:",
+		"mentalSupport": "精神的サポート:",
+		"thanks": "プレイしてくれてありがとう！"
+	},
+	"menuMain": {
+		"menu": ["スタート", "ステージセレクト", "設定", "クレジット", "終了"],
+		"start": {
+			"title": "難易度を選択:",
+			"menu": ["ツーリスト", "アベレージ", "サイレント"],
+			"descPopup": [
+				"経験の浅い主婦向けのモード。残機無限、すべてが大幅に弱体化。血も虹に置き換えられています。",
+				"そこそこ難しく、プレイヤーに比較的公平な挑戦を提供します。残機は3つ。十分でしょう。",
+				"一度のミスで終わり。効果音なし。"
+			],
+			"nothingSelected": "難易度が選択されていません。",
+			"playPopup": "新しいゲームを開始します。よろしいですか？",
+			"trackTitle": "NemesisTheory -> Amaranthine"
+		},
+		"stageSelect": {
+			"locked": "このメニューを使うには、まずゲームをクリアする必要があります。",
+			"unlocked": "おめでとうございます、勝者はあなたです！これで <s>ルイージとしてプレイ</s> 好きなステージをリプレイできます。",
+			"title": "リプレイしたいステージを選択:",
+			"stages": [
+				"森", "森（ボス）",
+				"川", "川（ボス）",
+				"荒れ地", "荒れ地（ボス）",
+				"軍事検問所", "軍事検問所（ボス）",
+				"ゼータ・コンプレックス", "ゼータ・コンプレックス（ボス）",
+				"秘密研究所", "秘密研究所（ボス）"
+			],
+			"stagesMusic": [
+				"NemesisTheory -> An Army of One", "NemesisTheory -> Rose At Dawn",
+				"NemesisTheory -> Rose At Meridiem", "NemesisTheory -> Russian Roulette",
+				"NemesisTheory -> Sincere Serenity", "NemesisTheory -> Asian Temptation",
+				"NemesisTheory -> Assimilation", "NemesisTheory -> Rising Sun",
+				"NemesisTheory -> Turn of Tides", "NemesisTheory - Weeping Demon",
+				"NemesisTheory -> Heavenly Horrors", "Dimrain47 -> Through the Gates"
+			],
+			"nothingSelected": "リプレイするステージが選択されていません。",
+			"playPopup": "選択したステージをリプレイします。よろしいですか？"
+		},
+		"quitPopup": "ゲームを終了します。よろしいですか？"
+	},
+	"menuPause": {
+		"title": "ゲームを一時停止しました。",
+		"menu": ["続行", "設定", "デバッグ", "クレジット", "終了"],
+		"quitPopup": "メインメニューに戻ります。よろしいですか？"
+	},
+	"stageGeneric": {
+		"sidePanel": {
+		"fps": "FPS:",
+		"difficulty": "難易度:",
+		"highScore": "ハイスコア:",
+		"totalScore": "合計スコア:",
+		"grazeScore": "グレイズスコア:",
+		"lives": "残機:",
+		"power": "パワー:",
+		"dash": "ダッシュクールダウン:"
+		},
+		"popup": {
+			"stageClear": "【ステージクリア】",
+			"time": "タイム:",
+			"bonus": "ボーナス:"
+		},
+		"bonusFailed": "ボーナス獲得失敗！",
+		"wasted": "【死亡】"
+	},
+	"stageForest": {
+		"stageMusic": "NemesisTheory -> An Army of One",
+		"title": "～ 森 ～",
+		"dialogue": [
+			"あぁ、小雨の後の夜の空気って、まだ爽やかだなぁ……",
+			"キノコ採りにぴったりだ！",
+			"そうはいかないよ、坊主！ まだ€20借りてるだろ！",
+			"くそ、またお前か……週末に返すって言っただろ！",
+			"その話、一週間前にも聞いたよ。二週間前にもな。",
+			"アスターさん、お金はどちらにございますか？ お答えいただけますでしょうか？",
+			"聞いてください、ケイト。本当に急いでいるんです。後で必ず持ってきますから。",
+			"いや。今すぐ金をもらうか、お前が土に埋まるか、どっちかだ！",
+			"暴力に訴えるのか？ まあ、いいだろう。"
+		]
+	},
+	"stageForestBoss": {
+		"stageMusic": "NemesisTheory -> Rose At Dawn",
+		"title": "",
+		"dialogue": [
+			"まあ、どうやら私の方が強かったみたいね。",
+			"はっ、はっ…… あんたの勝ちね。でも今回だけよ！",
+			"で、強がるんじゃないわよ、クソが！ 次は絶対に金を取り戻すからね！",
+			"もちろん。でも、また攻撃的になる必要はないでしょ。",
+			"じゃあ、またね、ケイト。"
+		]
+	}
+}

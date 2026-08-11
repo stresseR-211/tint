@@ -1,0 +1,122 @@
+{
+	"system": {
+		"version": "Versiunea:",
+		"button": ["X", "Sim", "Não", "Compreendi", "Jogar", "Descrição"]
+	},
+	"settings": {
+		"title": "Opções",
+		"width": "Largura:",
+		"height": "Altura:",
+		"volumeMus": "Volume da música:",
+		"volumeSnd": "Volume do som:",
+		"sensitivity": "Sensibilidade do rato:",
+		"controls": ["As teclas:", "Acima:", "Esquerda:", "Em baixo:", "Direita:", "Dash:", "Esgueirar-se:", "Disparar:"],
+		"language": "Língua:",
+		"vsync": "V-sync:",
+		"ldm": "Modo de detalhes baixos:"
+	},
+	"credits": {
+		"title": "Créditos:",
+		"engine": "Engine:",
+		"programming": "Programação:",
+		"sprites": "Sprites:",
+		"visuals": "Visual:",
+		"stage": "Design de níveis:",
+		"music": "Música:",
+		"sounds": "Sons:",
+		"story": "História e narrativa:",
+		"testing": "QA testing:",
+		"locale": "Localização:",
+		"mentalSupport": "Apoio psicológico:",
+		"thanks": "Obrigada por jogar!"
+	},
+	"menuMain": {
+		"menu": ["JOGAR", "ESCOLHE UM NÍVEL", "OPÇÕES", "CRÉDITOS", "SAIR"],
+		"start": {
+			"title": "Escolhe uma dificuldade:",
+			"menu": ["TURISTA", "MÉDIO", "TRANQUILO"],
+			"descPopup": [
+				"Um modo de jogo pensado para domésticas inexperientes. Tens vidas infinitas, tudo foi enfraquecido ao máximo. Ainda substituí o sangue por arco-íris.",
+				"Bastante difícil, oferece uma competição justa para os jogadores. Tens 3 vidas, deve ser mais do que suficiente.",
+				"Um erro e tu estava errado. Sem sons."
+			],
+			"nothingSelected": "Não escolheste a dificuldade.",
+			"playPopup": "Queres começar um novo jogo?",
+			"trackTitle": "NemesisTheory -> Amaranthine"
+		},
+		"stageSelect": {
+			"locked": "Tens de ganhar uma vez antes de poderes usar este menu.",
+			"unlocked": "Parabéns, és um vencedor! Agora podes voltar a jogar qualquer nível de que tenhas gostado.",
+			"title": "Escolhe o nível que queres voltar a jogar:",
+			"stages": [
+				"Floresta", "Floresta (Boss)",
+				"Rio", "Rio (Boss)",
+				"Deserto", "Deserto (Boss)",
+				"Posto de controlo militar", "Posto de controlo militar (Boss)",
+				"Complexo Zeta", "Complexo Zeta (Boss)",
+				"Laboratório secreto", "Laboratório secreto (Boss)"
+			],
+			"stagesMusic": [
+				"NemesisTheory -> An Army of One", "NemesisTheory -> Rose At Dawn",
+				"NemesisTheory -> Rose At Meridiem", "NemesisTheory -> Russian Roulette",
+				"NemesisTheory -> Sincere Serenity", "NemesisTheory -> Asian Temptation",
+				"NemesisTheory -> Assimilation", "NemesisTheory -> Rising Sun",
+				"NemesisTheory -> Turn of Tides", "NemesisTheory - Weeping Demon",
+				"NemesisTheory -> Heavenly Horrors", "Dimrain47 -> Through the Gates"
+			],"
+			nothingSelected": "Não escolheste nenhum nível.",
+			"playPopup": "Rejogar este nível?"
+		},
+		"quitPopup": "Sair para o ambiente de trabalho?"
+	},
+	"menuPause": {
+		"title": "Jogo em pausa.",
+		"menu": ["CONTINUAR", "OPÇÕES", "DEBUG", "CRÉDITOS", "SAIR"],
+		"quitPopup": "Sair para o menu principal?"
+	},
+	"stageGeneric": {
+		"sidePanel": {
+			"fps": "FPS:",
+			"difficulty": "Dificuldade:",
+			"highScore": "Melhor pontuação:",
+			"totalScore": "Pontuação total:",
+			"grazeScore": "Pontuação de raspagem:",
+			"lives": "Vidas:",
+			"power": "Poder:",
+			"dash": "Recarga do dash:"
+		},
+		"popup": {
+			"stageClear": "[[FASE CONCLUÍDA]]",
+			"time": "Tempo:",
+			"bonus": "Bónus:"
+		},
+		"bonusFailed": "O bónus foi desperdiçado!",
+		"wasted": "[[MORTA]]"
+	},
+	"stageForest": {
+		"stageMusic": "NemesisTheory -> An Army of One",
+		"title": "~ A Floresta ~",
+		"dialogue": [
+			"Ah, depois da chuvinha noturna, o ar ainda está tão fresco...",
+			"Altura perfeita para ir buscar uns cogumelos!",
+			"Olha que não, amigo! Ainda me deves 20 euros!",
+			"Raio, outra vez tu... Já te disse que te pago no fim da semana!",
+			"Andas a dizer-me a mesma lenga-lenga há uma semana. E há duas semanas, também.",
+			"Então onde está o dinheiro, Aster? Responde-me.",
+			"Ouve, Kate, eu tenho mesmo de ir. Prometo que te trago o guito mais tarde.",
+			"Qual quê. Ou me dás o meu dinheiro agora, ou vais desta para melhor!",
+			"Recorrer à violência? Então está bem, bora lá."
+		]
+	},
+	"stageForestBoss": {
+		"stageMusic": "NemesisTheory -> Rose At Dawn",
+		"title": "",
+		"dialogue": [
+			"Bem, afinal eu era mais forte do que tu.",
+			"Uff, uff... Acho que ganhaste. Mas só desta vez!",
+			"E não te armes em durona, porra! Eu <i>vou</i> recuperar o meu dinheiro para a próxima!",
+			"Claro. Mas não precisas de voltar a ser agressiva.",
+			"Até à próxima, Kate."
+		]
+	}
+}

@@ -1,0 +1,122 @@
+{
+	"system": {
+		"version": "Versiunea:",
+		"button": ["X", "Da", "Nu", "Am înțeles", "Juca", "Descripție"]
+	},
+	"settings": {
+		"title": "Gestionare",
+		"width": "Lungimea:",
+		"height": "Înălțimea:",
+		"volumeMus": "Volumul muzicii:",
+		"volumeSnd": "Volumul sunetelor:",
+		"sensitivity": "Sensitivitatea mouse-lui:",
+		"controls": ["Tastele:", "Sus:", "Stânga:", "Jos:", "Dreapta:", "Avânt înainte:", "A se strecura:", "A împușca:"],
+		"language": "Limba:",
+		"vsync": "V-sync:",
+		"ldm": "Mod de detalii reduse:"
+	},
+	"credits": {
+		"title": "Credits:",
+		"engine": "Engine:",
+		"programming": "Programming:",
+		"sprites": "Sprites:",
+		"visuals": "Vizual:",
+		"stage": "Design de nivele:",
+		"music": "Muzică:",
+		"sounds": "Sunete:",
+		"story": "Istorie și narativ:",
+		"testing": "QA testing:",
+		"locale": "Localizare:",
+		"mentalSupport": "Ajutor mental:",
+		"thanks": "Mulțumesc că ai jucat!"
+	},
+	"menuMain": {
+		"menu": ["JOACĂ", "ALEGE UN NIVEL", "GESTIONARE", "CREDITS", "IEȘI"],
+		"start": {
+			"title": "Alege o dificultate:",
+			"menu": ["TURIST", "MEDIU", "LINIȘTIT"],
+			"descPopup": [
+				"Un mod de joc intenționat pentru menajere nepricepute. Ai vieți infinite, totul a fost slăbit la naibă. Încă am înlocuit sângele cu curcubee.",
+				"Destul de dificil, ofertă o competiție cinstită pentru jucători. Ai 3 vieți, treb' s-fi destul de suficient.",
+				"O greșeală și ai greșit. Fără sunete."
+			],
+			"nothingSelected": "N-ai ales dificultatea.",
+			"playPopup": "Vrei să începi un joc nou?",
+			"trackTitle": "NemesisTheory -> Amaranthine"
+		},
+		"stageSelect": {
+			"locked": "Trebuie să câștigi o dată înainte de putea folosi acest meniu.",
+			"unlocked": "Felicitări, un câștigător ești tu! Acum poți să rejoci orice nivel ți-ai plăcut.",
+			"title": "Alege nivelul pe care vrei să-l rejoci:",
+			"stages": [
+				"Pădure", "Pădure (Boss)",
+				"Râu", "Râu (Boss)",
+				"Pustiu", "Pustiu (Boss)",
+				"Punct de control militar", "Punct de control militar (Boss)",
+				"Zeta Complex", "Zeta Complex (Boss)",
+				"Laborator secret", "Laborator secret (Boss)"
+			],
+			"stagesMusic": [
+				"NemesisTheory -> An Army of One", "NemesisTheory -> Rose At Dawn",
+				"NemesisTheory -> Rose At Meridiem", "NemesisTheory -> Russian Roulette",
+				"NemesisTheory -> Sincere Serenity", "NemesisTheory -> Asian Temptation",
+				"NemesisTheory -> Assimilation", "NemesisTheory -> Rising Sun",
+				"NemesisTheory -> Turn of Tides", "NemesisTheory - Weeping Demon",
+				"NemesisTheory -> Heavenly Horrors", "Dimrain47 -> Through the Gates"
+			],
+			"nothingSelected": "N-ai ales nici o nivel.",
+			"playPopup": "Rejuca acest nivel?"
+		},
+		"quitPopup": "Ieșiți la desktop?"
+	},
+	"menuPause": {
+		"title": "Jocul întrerupt.",
+		"menu": ["CONTINUA", "GESTIONARE", "DEBUG", "CREDITS", "IEȘI"],
+		"quitPopup": "Ieșiți la meniu principal?"
+	},
+	"stageGeneric": {
+		"sidePanel": {
+			"fps": "FPS:",
+			"difficulty": "Dificultate:",
+			"highScore": "Scor maxim:",
+			"totalScore": "Scor total:",
+			"grazeScore": "Scor de strecurare:",
+			"lives": "Vieți:",
+			"power": "Putere:",
+			"dash": "Cooldown avântului:"
+		},
+		"popup": {
+			"stageClear": "[[NIVEL FINALIZAT]]",
+			"time": "Timp:",
+			"bonus": "Bonus:"
+		},
+		"bonusFailed": "Bonusul a fost irosit!",
+		"wasted": "[[MORT]]"
+	},
+	"stageForest": {
+		"stageMusic": "NemesisTheory -> An Army of One",
+		"title": "~ Pădurea ~",
+		"dialogue": [
+			"Daa, aerul după ploaie ușoară încă e proaspăt...",
+			"Un timp perfect pentru a se duce după ciuperci!",
+			"Stai oleacă, amice! Încă îmi datorezi 20 de euro!",
+			"Naibă, ești tu din nou... Ți-am spus o dată că am să dău banii a sfârșitu săprămânii!",
+			"Măi, nu te povestești basme lui Kîrloveanu. Doi săptămâni au trecut deja.",
+			"Unde-s banii, Aster? Răspunde mă.",
+			"Ascultă, Kate, nii trebu să duc. Am s-îți returnez mai târziu.",
+			"Nu-nu-nu. Ori te dai banii acum, ori eu o să te dau în capul până îl se izbucnește!",
+			"Recurgem la violență? Bine, hai să fie."
+		]
+	},
+	"stageForestBoss": {
+		"stageMusic": "NemesisTheory -> Rose At Dawn",
+		"title": "",
+		"dialogue": [
+			"Păi, se pare că sânt mai puternic decât tine.",
+			"Of... Bine, ai câștigat. Dar numai de data asta!",
+			"Și nu te da mare boss! Am să <i>iau</i> eu pe banii mele data viitoare!",
+			"Desigur. Doar să nu te aprinzi.",
+			"Pe curând, Kate."
+		]
+	}
+}
