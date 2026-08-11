@@ -74,6 +74,7 @@ namespace node {
 	};
 	class EXPORT object {
 	protected:
+		std::string path;
 		SDL_Surface* texture;
 		SDL_Rect bounds;
 		[[maybe_unused]] SDL_Rect hitbox;
@@ -82,7 +83,7 @@ namespace node {
 	public:
 		object copy(void);
 		void move(int x, int y, bezierCurve) noexcept;
-		void moveRelative(int x, int y) noexcept;
+		void moveAbs(int x, int y, bezierCurve) noexcept;
 		void rotate(float d) noexcept;
 		void scale(uint8_t z) noexcept;
 		void colmod(COLMOD) noexcept;
