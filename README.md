@@ -20,7 +20,7 @@ sudo pacman -S gcc sdl2 cmake
 ```
 git clone REPO
 cd ./REPO
-# build either it in vscode or directly by using this command:
+# build it either in vscode or directly by using this command:
 cmake --build ./build --target all
 ```
 ---
