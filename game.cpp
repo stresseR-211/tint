@@ -16,7 +16,7 @@ int main(int argc, char** argv) {
 	});
 	sys::init();
 	sys::audio::init();
-
+	std::this_thread::sleep_for(std::chrono::seconds(2));
 	sys::audio::device dev = sys::audio::device::open("../data/temp/menu.ogg", CH::MUS, FX::NONE);
 	sys::audio::changeVolume(CH::MUS, 12);
 	dev.play();
@@ -25,23 +25,19 @@ int main(int argc, char** argv) {
 
 
 
-	node::window window = node::create::window(
-		std::any_cast<uint16_t>(config::get(CFG::WIDTH)),
-		std::any_cast<uint16_t>(config::get(CFG::HEIGHT))
-	);
+	node::window window = node::create::window(sys::config::getWidth(), sys::config::getHeight());
 	SDL_Event event;
 	for (;;) {
 		while (SDL_PollEvent(&event)) {
 			switch (event.type) {
 			case SDL_QUIT: return code;
-			case SDL_MOUSEBUTTONDOWN: return code+1;
-			/*
+			case SDL_MOUSEBUTTONDOWN:
 				window.hide();
 				std::this_thread::sleep_for(std::chrono::seconds(3));
-				window.show();*/
+				window.show();
 			default: break;
 			}
 		}
 	}
-	return code = 69420;
+	return code = 69420; /* vamos */
 }

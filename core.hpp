@@ -1,32 +1,11 @@
 #pragma once
 #include "preprocess.hpp"
-#include <ratio>
-#include <any>
 #include <SDL2/SDL.h>
-namespace sys {
-	void EXPORT init(void);
-	void EXPORT quit(void);
-}
 typedef enum struct LANG {
-	ENG,
-	ROM,
-	RUS,
-	UKR,
-	PTG,
-	JPN
+	ENG, DEU, RUS, UKR,
+	ESP, PTG, ROM, JPN
 } LANG;
-typedef enum struct CFG {
-	RESO,
-	WIDTH,
-	HEIGHT,
-	VOLMUS,
-	VOLSFX,
-	SENS,
-	LANG,
-	VSYNC,
-	LDM
-} CFG;
-typedef enum struct CTRL {
+typedef enum struct CONTROL {
 	UP,
 	LEFT,
 	DOWN,
@@ -34,29 +13,47 @@ typedef enum struct CTRL {
 	DASH,
 	GRAZE,
 	FIRE
-} CTRL;
-
-// * todo: refactor everything, this is shit
-class EXPORT config final {
-	static constexpr std::ratio<4,3> resolution{}; // * read only
-	static constinit uint16_t width;
-	static constinit uint16_t height;  // * auto-adjusted
-	static constinit float volumeMUS;
-	static constinit float volumeSFX;
-	static constinit float sensitivity;
-	static constinit SDL_Scancode controls[7];
-	static constinit LANG language;
-	static constinit bool vsync;
-	static constinit bool ldm; // * low detail mode
-public:
-	static std::any get(CFG option) noexcept;
-	static SDL_Scancode get(CTRL control) noexcept;
-	static void set(CFG option, std::any value);
-	static void set(CTRL control, SDL_Scancode value) noexcept;
-	template <typename T> config(T) = delete;
-	template <typename T> config operator=(T) = delete;
-	config(void) = delete;
-	config(const config&) = delete;
-	config operator=(const config&) = delete;
-	~config(void) = delete;
-};
+} CONTROL;
+typedef enum struct VOLUME {
+	MUSIC,
+	SFX
+} VOLUME;
+namespace sys {
+	void EXPORT init(void);
+	void EXPORT quit(void);
+	class EXPORT config final {
+		static constinit uint16_t width;
+		static constinit uint16_t height;
+		static constinit float volumeMusic;
+		static constinit float volumeSFX;
+		static constinit float sensitivity;
+		static constinit SDL_Scancode controls[7];
+		static constinit LANG language;
+		static constinit bool vsync;
+		static constinit bool ldm;
+	public: // * fuck it
+		static void setWidth(uint16_t) noexcept;
+		static void setVolumeMusic(float) noexcept;
+		static void setVolumeSFX(float) noexcept;
+		static void setSensitivity(float) noexcept;
+		static void setControl(CONTROL, SDL_Scancode) noexcept;
+		static void setLanguage(LANG) noexcept;
+		static void setVSync(bool) noexcept;
+		static void setLDM(bool) noexcept;
+		static uint16_t getWidth(void) noexcept;
+		static const uint16_t getHeight(void) noexcept;
+		static float getVolumeMusic(void) noexcept;
+		static float getVolumeSFX(void) noexcept;
+		static float getSensitivity(void) noexcept;
+		static SDL_Scancode getControl(CONTROL) noexcept;
+		static LANG getLanguage(void) noexcept;
+		static bool getVSync(void) noexcept;
+		static bool getLDM(void) noexcept;
+		template <typename T> config(T) = delete;
+		template <typename T> config operator=(T) = delete;
+		config(void) = delete;
+		config(const config&) = delete;
+		config operator=(const config&) = delete;
+		~config(void) = delete;
+	};
+}

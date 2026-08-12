@@ -26,15 +26,16 @@
 #endif /* _WIN32 */
 #include <cstdint>
 #include <string>
+#include <type_traits>
 #define __concat(x, y) x##y
 #define __concatExpanded(x, y) __concat(x, y)
 #define __uniqueName(x) __concatExpanded(x, __COUNTER__)
 #define watchdog(lambda) auto __uniqueName(__scopeGuard) = __makeScopeGuard(lambda)
-template <typename T> class EXPORT __scopeGuard {
+template <typename T> class EXPORT __scopeGuard final {
 	T lambda;
 	__scopeGuard(T func) noexcept : lambda(func) {};
 public:
-	template <typename U> friend __scopeGuard<U> __makeScopeGuard(U func) noexcept;
+	template <typename U> friend constexpr std::enable_if_t<std::is_invocable<U>::value, __scopeGuard<U>> __makeScopeGuard(U func) noexcept;
 	template <typename... U> __scopeGuard(U...) = delete;
 	template <typename... U> __scopeGuard operator=(U...) = delete;
 	__scopeGuard(void) = delete;
@@ -44,8 +45,8 @@ public:
 		lambda();
 	};
 };
-template <typename T> __scopeGuard<T> EXPORT __makeScopeGuard(T func) noexcept {
-	return __scopeGuard<T>(func);
+template <typename  T> constexpr std::enable_if_t<std::is_invocable<T>::value, __scopeGuard<T>> EXPORT __makeScopeGuard(T func) noexcept {
+	return __scopeGuard<T>(std::move(func));
 }
 inline constexpr const char* NULL_STR = "";
 #endif /*__cplusplus */
