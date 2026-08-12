@@ -1,12 +1,12 @@
 {
 	"system": {
 		"version": "Version:",
-		"button": ["X", "Yes", "No", "Got it", "Play", "Description"]
+		"button": ["[X]", "[Yes]", "[No]", "[Got it]", "[Play]", "[Description]"]
 	},
 	"settings": {
 		"title": "Settings",
-		"width": "Width:",
-		"height": "Height:",
+		"width": "Screen width:",
+		"height": "Screen height:",
 		"volumeMus": "Music volume:",
 		"volumeSnd": "SFX volume:",
 		"sensitivity": "Mouse sensitivity:",
@@ -36,7 +36,7 @@
 			"title": "Select difficulty:",
 			"menu": ["TOURIST", "AVERAGE", "SILENT"],
 			"descPopup": [
-				"A gamemode intended for inexperienced housewives. You have infinite lives, and everything is nerfed into oblivion. Also the blood is replaced with rainbows.",
+				"A gamemode intended for inexperienced housewives. You have infinite lives, everything is nerfed into oblivion, and the blood is replaced with rainbows.",
 				"Hard enough, provides a relatively fair challenge to the players. You have 3 lives, oughtta be enuff.",
 				"One mistake, and you're mistaken. No SFX."
 			],
@@ -46,7 +46,7 @@
 		},
 		"stageSelect": {
 			"locked": "You have to beat the game before using this menu.",
-			"unlocked": "Congratulations, a winner is you! You can now <s>play as Luigi</s> replay any stage you like.",
+			"unlocked": "Congratulations, a winner is you! You can now replay <s>as Luigi</s> any stage you like.",
 			"title": "Select the stage you wish to replay:",
 			"stages": [
 				"Forest", "Forest (Boss)",
@@ -114,9 +114,37 @@
 		"dialogue": [
 			"Well, turns out i was stronger than you.",
 			"Huff, puff... I guess you won. But just this once!",
-			"And don't act like you're tough and shit! I <i>am</i> getting my money back next time!",
+			"And don't act like you're tough and shit! I am getting my money back next time!",
 			"Of course. But no need to get agressive again.",
 			"See ya, Kate."
+		]
+	},
+	"stageForest": {
+		"stageMusic": "NemesisTheory -> Rose At Meridiem",
+		"title": "~ The River ~",
+		"dialogue": [
+			"Well, that battle was exausting...",
+			"I hope this time i wouldn't be sieged by any surprise.",
+			"And here i am!",
+			"...Jinx it. What do you want, moron?",
+			"How darest thou call me a morone?! I'm the daughter of the nobleman Pascal and the most powerful mage in the area, by the way!",
+			"Élyzabeth-Rézé la Noëlle-Geneviève. But thou can call me Erlang, bastard.",
+			"I know what your name is and who you are.",
+			"I hear no reverence in the tone of thy voice!",
+			"Anyway, i tharf to try out new tricks of mine, so i demand thee help me out.",
+			"And look, i'm asking politely, bastard.",
+			"Not again..."
+		]
+	},
+	"stageForestBoss": {
+		"stageMusic": "NemesisTheory -> Russian Roulette",
+		"title": "",
+		"dialogue": [
+			"Your tricks are kinda weak, miss Erlang.",
+			"Act not so high and mighty, bastard! The fact that thou managedst to beat me once proves nothing!",
+			"Yes, i accept my lose. But i'm still the most powerful mage! I shall prove it! I shall prove it to all!",
+			"...",
+			"Didn't even say \"goodbye\"."
 		]
 	}
 }

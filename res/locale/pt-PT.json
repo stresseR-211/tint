@@ -1,12 +1,12 @@
 {
 	"system": {
-		"version": "Versiunea:",
-		"button": ["X", "Sim", "Não", "Compreendi", "Jogar", "Descrição"]
+		"version": "Versão:",
+		"button": ["[X]", "[Sim]", "[Não]", "[Compreendi]", "[Jogar]", "[Descrição]"]
 	},
 	"settings": {
 		"title": "Opções",
-		"width": "Largura:",
-		"height": "Altura:",
+		"width": "Largura do ecrã:",
+		"height": "Altura do ecrã:",
 		"volumeMus": "Volume da música:",
 		"volumeSnd": "Volume do som:",
 		"sensitivity": "Sensibilidade do rato:",
@@ -36,7 +36,7 @@
 			"title": "Escolhe uma dificuldade:",
 			"menu": ["TURISTA", "MÉDIO", "TRANQUILO"],
 			"descPopup": [
-				"Um modo de jogo pensado para domésticas inexperientes. Tens vidas infinitas, tudo foi enfraquecido ao máximo. Ainda substituí o sangue por arco-íris.",
+				"Um modo de jogo feito para empregadas domésticas incompetentes. Tens vidas infinitas, tudo levou nerf até não poder mais, e ainda por cima substituí o sangue por arco-íris.",
 				"Bastante difícil, oferece uma competição justa para os jogadores. Tens 3 vidas, deve ser mais do que suficiente.",
 				"Um erro e tu estava errado. Sem sons."
 			],
@@ -46,7 +46,7 @@
 		},
 		"stageSelect": {
 			"locked": "Tens de ganhar uma vez antes de poderes usar este menu.",
-			"unlocked": "Parabéns, és um vencedor! Agora podes voltar a jogar qualquer nível de que tenhas gostado.",
+			"unlocked": "Parabéns, um vencedor és tu! Agora podes voltar a jogar <s>como Luigi</s> qualquer nível de que tenhas gostado.",
 			"title": "Escolhe o nível que queres voltar a jogar:",
 			"stages": [
 				"Floresta", "Floresta (Boss)",
@@ -114,9 +114,37 @@
 		"dialogue": [
 			"Bem, afinal eu era mais forte do que tu.",
 			"Uff, uff... Acho que ganhaste. Mas só desta vez!",
-			"E não te armes em durona, porra! Eu <i>vou</i> recuperar o meu dinheiro para a próxima!",
+			"E não te armes em durona, porra! Eu vou recuperar o meu dinheiro para a próxima!",
 			"Claro. Mas não precisas de voltar a ser agressiva.",
 			"Até à próxima, Kate."
+		]
+	},
+	"stageForest": {
+		"stageMusic": "NemesisTheory -> Rose At Meridiem",
+		"title": "~ O Rio ~",
+		"dialogue": [
+			"Afinal, aquela batalha foi cansativa...",
+			"Espero que, ao menos agora, não haja surpresas.",
+			"E cá estou eu!",
+			"...Falei cedo demais. O que queres, ó cabeça de vento?",
+			"Como ousas chamar-me cabeça de vento?! Eu sou filha do nobre Pascal e a maga mais poderosa da região, já agora!",
+			"Élyzabeth-Rézé la Noëlle-Geneviève. Mas para ti, basta Erlang, plebeia.",
+			"Eu sei bem quem és e como te chamas.",
+			"Não ouço nenhum tremor na tua voz!",
+			"Seja como for, preciso de testar os meus novos truques em alguém, por isso faz-me o favor e dá uma ajuda.",
+			"Repara, plebeia: estou a pedir com educação.",
+			"Outra vez não..."
+		]
+	},
+	"stageForestBoss": {
+		"stageMusic": "NemesisTheory -> Russian Roulette",
+		"title": "",
+		"dialogue": [
+			"Os teus truques são bem fracos, senhorita Erlang.",
+			"Não levantes o nariz, plebeia! Só porque conseguiste vencer-me uma vez, ainda não significa nada!",
+			"Sim, admito a minha derrota. Mas continuo a ser a maga mais poderosa! Hei-de prová-lo! Hei-de prová-lo a todos!",
+			"...",
+			"Foi-se sem sequer se despedir."
 		]
 	}
 }

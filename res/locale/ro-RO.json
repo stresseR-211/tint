@@ -1,16 +1,16 @@
 {
 	"system": {
 		"version": "Versiunea:",
-		"button": ["X", "Da", "Nu", "Am înțeles", "Juca", "Descripție"]
+		"button": ["[X]", "[Da]", "[Nu]", "[Am înțeles]", "[Juca]", "[Descripție]"]
 	},
 	"settings": {
 		"title": "Gestionare",
-		"width": "Lungimea:",
-		"height": "Înălțimea:",
+		"width": "Lățimea ecranului:",
+		"height": "Înălțimea ecranului:",
 		"volumeMus": "Volumul muzicii:",
 		"volumeSnd": "Volumul sunetelor:",
 		"sensitivity": "Sensitivitatea mouse-lui:",
-		"controls": ["Tastele:", "Sus:", "Stânga:", "Jos:", "Dreapta:", "Avânt înainte:", "A se strecura:", "A împușca:"],
+		"controls": ["Tastele:", "Sus:", "Stânga:", "Jos:", "Dreapta:", "Avânt:", "A se strecura:", "A împușca:"],
 		"language": "Limba:",
 		"vsync": "V-sync:",
 		"ldm": "Mod de detalii reduse:"
@@ -27,7 +27,7 @@
 		"story": "Istorie și narativ:",
 		"testing": "QA testing:",
 		"locale": "Localizare:",
-		"mentalSupport": "Ajutor mental:",
+		"mentalSupport": "Suport psihologic:",
 		"thanks": "Mulțumesc că ai jucat!"
 	},
 	"menuMain": {
@@ -36,7 +36,7 @@
 			"title": "Alege o dificultate:",
 			"menu": ["TURIST", "MEDIU", "LINIȘTIT"],
 			"descPopup": [
-				"Un mod de joc intenționat pentru menajere nepricepute. Ai vieți infinite, totul a fost slăbit la naibă. Încă am înlocuit sângele cu curcubee.",
+				"Un mod de joc intenționat pentru menajere nepricepute. Ai vieți infinite, totul a fost nerfat până la pământ, și încă am înlocuit sângele cu curcubee.",
 				"Destul de dificil, ofertă o competiție cinstită pentru jucători. Ai 3 vieți, treb' s-fi destul de suficient.",
 				"O greșeală și ai greșit. Fără sunete."
 			],
@@ -46,7 +46,7 @@
 		},
 		"stageSelect": {
 			"locked": "Trebuie să câștigi o dată înainte de putea folosi acest meniu.",
-			"unlocked": "Felicitări, un câștigător ești tu! Acum poți să rejoci orice nivel ți-ai plăcut.",
+			"unlocked": "Felicitări, un câștigător ești tu! Acum poți să rejoci <s>ca Luigi</s> orice nivel ți-ai plăcut.",
 			"title": "Alege nivelul pe care vrei să-l rejoci:",
 			"stages": [
 				"Pădure", "Pădure (Boss)",
@@ -67,12 +67,12 @@
 			"nothingSelected": "N-ai ales nici o nivel.",
 			"playPopup": "Rejuca acest nivel?"
 		},
-		"quitPopup": "Ieșiți la desktop?"
+		"quitPopup": "Ieși la desktop?"
 	},
 	"menuPause": {
 		"title": "Jocul întrerupt.",
 		"menu": ["CONTINUA", "GESTIONARE", "DEBUG", "CREDITS", "IEȘI"],
-		"quitPopup": "Ieșiți la meniu principal?"
+		"quitPopup": "Ieși la meniu principal?"
 	},
 	"stageGeneric": {
 		"sidePanel": {
@@ -101,11 +101,11 @@
 			"Un timp perfect pentru a se duce după ciuperci!",
 			"Stai oleacă, amice! Încă îmi datorezi 20 de euro!",
 			"Naibă, ești tu din nou... Ți-am spus o dată că am să dău banii a sfârșitu săprămânii!",
-			"Măi, nu te povestești basme lui Kîrloveanu. Doi săptămâni au trecut deja.",
+			"Măi, nu te-mi povestești basme lui Cîrloveanu. Doi săptămâni au trecut deja.",
 			"Unde-s banii, Aster? Răspunde mă.",
 			"Ascultă, Kate, nii trebu să duc. Am s-îți returnez mai târziu.",
-			"Nu-nu-nu. Ori te dai banii acum, ori eu o să te dau în capul până îl se izbucnește!",
-			"Recurgem la violență? Bine, hai să fie."
+			"Nu-nu-nu. Ori te dai banii acum, ori o să te pun la pământ!",
+			"Recurgem la violență? Bun, hai să fie."
 		]
 	},
 	"stageForestBoss": {
@@ -114,9 +114,37 @@
 		"dialogue": [
 			"Păi, se pare că sânt mai puternic decât tine.",
 			"Of... Bine, ai câștigat. Dar numai de data asta!",
-			"Și nu te da mare boss! Am să <i>iau</i> eu pe banii mele data viitoare!",
+			"Și nu te da naibă boss! Am să iau eu pe banii mele data viitoare!",
 			"Desigur. Doar să nu te aprinzi.",
 			"Pe curând, Kate."
+		]
+	},
+	"stageForest": {
+		"stageMusic": "NemesisTheory -> Rose At Meridiem",
+		"title": "~ Râul ~",
+		"dialogue": [
+			"Totuși, acea bătălie a fost obositoare...",
+			"Sper că măcar acum va fi fără surprize.",
+			"Iată-mă!",
+			"...Am vorbit de rău. Ce-ți trebuie, nătângă?",
+			"Cum ai îndrăznit să mă numești nătângă?! Eu sunt fiica nobilului Pascal și cea mai puternică magă in județul, de altfel!",
+			"Élyzabeth-Rézé la Noëlle-Geneviève. Dar pentru tine pur și simplu Erlang, plebee.",
+			"Știu cine ești și cum te cheamă.",
+			"Nu aud niciun tremur în tonul vocii tale!",
+			"În orice caz, am nevoie să-mi încerc noile tehnici pe cineva, așa că fii amabilă și ajută-mă.",
+			"Ia aminte, plebee: te rog politicos.",
+			"Numai nu iar..."
+		]
+	},
+	"stageForestBoss": {
+		"stageMusic": "NemesisTheory -> Russian Roulette",
+		"title": "",
+		"dialogue": [
+			"Cam slabe vor fi tehnicii tale, domnișoară Erlang.",
+			"Nu-ți ridica nasul, plebee! Faptul că ai reușit o dată să mă învingi nu înseamnă încă nimic!",
+			"Da, recunosc înfrângerea mea. Dar sunt încă cea mai puternică magă! O voi dovedi! Tuturor le voi dovedi!",
+			"...",
+			"A plecat fără măcar să-și spune \"la revedere\"."
 		]
 	}
 }
