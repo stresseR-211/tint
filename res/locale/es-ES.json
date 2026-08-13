@@ -1,60 +1,60 @@
 {
 	"system": {
-		"version": "Versiunea:",
-		"button": ["X", "Sim", "Não", "Compreendi", "Jogar", "Descrição"]
+		"version": "Versión:",
+		"button": ["[X]", "[Sí]", "[No]", "[Entendido]", "[Jugar]", "[Descripción]"]
 	},
 	"settings": {
-		"title": "Opções",
-		"width": "Largura:",
-		"height": "Altura:",
-		"volumeMus": "Volume da música:",
-		"volumeSnd": "Volume do som:",
-		"sensitivity": "Sensibilidade do rato:",
-		"controls": ["As teclas:", "Acima:", "Esquerda:", "Em baixo:", "Direita:", "Dash:", "Esgueirar-se:", "Disparar:"],
-		"language": "Língua:",
+		"title": "Opciones",
+		"width": "Ancho de pantalla:",
+		"height": "Alto de pantalla:",
+		"volumeMus": "Volumen de la música:",
+		"volumeSnd": "Volumen del sonido:",
+		"sensitivity": "Sensibilidad del ratón:",
+		"controls": ["Las teclas:", "Arriba:", "Izquierda:", "Abajo:", "Derecha:", "Dash:", "Escabullirse:", "Disparar:"],
+		"language": "Idioma:",
 		"vsync": "V-sync:",
-		"ldm": "Modo de detalhes baixos:"
+		"ldm": "Modo de detalles bajos:"
 	},
 	"credits": {
 		"title": "Créditos:",
-		"engine": "Engine:",
-		"programming": "Programação:",
+		"engine": "Motor:",
+		"programming": "Programación:",
 		"sprites": "Sprites:",
-		"visuals": "Visual:",
-		"stage": "Design de níveis:",
+		"visuals": "Visuales:",
+		"stage": "Diseño de niveles:",
 		"music": "Música:",
-		"sounds": "Sons:",
-		"story": "História e narrativa:",
-		"testing": "QA testing:",
-		"locale": "Localização:",
-		"mentalSupport": "Apoio psicológico:",
-		"thanks": "Obrigada por jogar!"
+		"sounds": "Sonidos:",
+		"story": "Historia y narrativa:",
+		"testing": "Pruebas de control de calidad:",
+		"locale": "Localización:",
+		"mentalSupport": "Apoyo psicológico:",
+		"thanks": "¡Gracias por jugar!"
 	},
 	"menuMain": {
-		"menu": ["JOGAR", "ESCOLHE UM NÍVEL", "OPÇÕES", "CRÉDITOS", "SAIR"],
+		"menu": ["JUGAR", "ELEGIR UN NIVEL", "OPCIONES", "CRÉDITOS", "SALIR"],
 		"start": {
-			"title": "Escolhe uma dificuldade:",
-			"menu": ["TURISTA", "MÉDIO", "TRANQUILO"],
+			"title": "Elige una dificultad:",
+			"menu": ["TURISTA", "MEDIO", "TRANQUILO"],
 			"descPopup": [
-				"Um modo de jogo pensado para domésticas inexperientes. Tens vidas infinitas, tudo foi enfraquecido ao máximo. Ainda substituí o sangue por arco-íris.",
-				"Bastante difícil, oferece uma competição justa para os jogadores. Tens 3 vidas, deve ser mais do que suficiente.",
-				"Um erro e tu estava errado. Sem sons."
+				"Un modo de juego hecho para empleadas domésticas incompetentes. Tienes vidas infinitas, todo está nerfeado hasta no poder más, y encima he sustituido la sangre por arcoíris.",
+				"Bastante difícil, ofrece una competición justa para los jugadores. Tienes 3 vidas, debería ser más que suficiente.",
+				"Un error y estabas equivocado. Sin sonidos."
 			],
-			"nothingSelected": "Não escolheste a dificuldade.",
-			"playPopup": "Queres começar um novo jogo?",
+			"nothingSelected": "No has elegido la dificultad.",
+			"playPopup": "¿Quieres empezar una nueva partida?",
 			"trackTitle": "NemesisTheory -> Amaranthine"
 		},
 		"stageSelect": {
-			"locked": "Tens de ganhar uma vez antes de poderes usar este menu.",
-			"unlocked": "Parabéns, és um vencedor! Agora podes voltar a jogar qualquer nível de que tenhas gostado.",
-			"title": "Escolhe o nível que queres voltar a jogar:",
+			"locked": "Tienes que ganar una vez antes de poder usar este menú.",
+			"unlocked": "¡Enhorabuena, eres un ganador! Ahora puedes volver a jugar <s>como Luigi</s> cualquier nivel que te haya gustado.",
+			"title": "Elige el nivel que quieres volver a jugar:",
 			"stages": [
-				"Floresta", "Floresta (Boss)",
-				"Rio", "Rio (Boss)",
-				"Deserto", "Deserto (Boss)",
-				"Posto de controlo militar", "Posto de controlo militar (Boss)",
-				"Complexo Zeta", "Complexo Zeta (Boss)",
-				"Laboratório secreto", "Laboratório secreto (Boss)"
+				"Bosque", "Bosque (Jefe)",
+				"Río", "Río (Jefe)",
+				"Desierto", "Desierto (Jefe)",
+				"Puesto de control militar", "Puesto de control militar (Jefe)",
+				"Complejo Zeta", "Complejo Zeta (Jefe)",
+				"Laboratorio secreto", "Laboratorio secreto (Jefe)"
 			],
 			"stagesMusic": [
 				"NemesisTheory -> An Army of One", "NemesisTheory -> Rose At Dawn",
@@ -63,60 +63,118 @@
 				"NemesisTheory -> Assimilation", "NemesisTheory -> Rising Sun",
 				"NemesisTheory -> Turn of Tides", "NemesisTheory - Weeping Demon",
 				"NemesisTheory -> Heavenly Horrors", "Dimrain47 -> Through the Gates"
-			],"
-			nothingSelected": "Não escolheste nenhum nível.",
-			"playPopup": "Rejogar este nível?"
+			],
+			"nothingSelected": "No has elegido ningún nivel.",
+			"playPopup": "¿Rejugar este nivel?"
 		},
-		"quitPopup": "Sair para o ambiente de trabalho?"
+		"quitPopup": "¿Salir al escritorio?"
 	},
 	"menuPause": {
-		"title": "Jogo em pausa.",
-		"menu": ["CONTINUAR", "OPÇÕES", "DEBUG", "CRÉDITOS", "SAIR"],
-		"quitPopup": "Sair para o menu principal?"
+		"title": "Juego en pausa.",
+		"menu": ["CONTINUAR", "OPCIONES", "DEPURACIÓN", "CRÉDITOS", "SALIR"],
+		"quitPopup": "¿Salir al menú principal?"
 	},
 	"stageGeneric": {
 		"sidePanel": {
 			"fps": "FPS:",
-			"difficulty": "Dificuldade:",
-			"highScore": "Melhor pontuação:",
-			"totalScore": "Pontuação total:",
-			"grazeScore": "Pontuação de raspagem:",
+			"difficulty": "Dificultad:",
+			"highScore": "Mejor puntuación:",
+			"totalScore": "Puntuación total:",
+			"grazeScore": "Puntuación de roce:",
 			"lives": "Vidas:",
 			"power": "Poder:",
-			"dash": "Recarga do dash:"
+			"dash": "Recarga del dash:"
 		},
 		"popup": {
-			"stageClear": "[[FASE CONCLUÍDA]]",
-			"time": "Tempo:",
-			"bonus": "Bónus:"
+			"stageClear": "[[FASE COMPLETADA]]",
+			"time": "Tiempo:",
+			"bonus": "Bonificación:"
 		},
-		"bonusFailed": "O bónus foi desperdiçado!",
-		"wasted": "[[MORTA]]"
+		"bonusFailed": "¡La bonificación se ha desperdiciado!",
+		"wasted": "[[MUERTA]]"
 	},
 	"stageForest": {
 		"stageMusic": "NemesisTheory -> An Army of One",
-		"title": "~ A Floresta ~",
+		"title": "~ El Bosque ~",
 		"dialogue": [
-			"Ah, depois da chuvinha noturna, o ar ainda está tão fresco...",
-			"Altura perfeita para ir buscar uns cogumelos!",
-			"Olha que não, amigo! Ainda me deves 20 euros!",
-			"Raio, outra vez tu... Já te disse que te pago no fim da semana!",
-			"Andas a dizer-me a mesma lenga-lenga há uma semana. E há duas semanas, também.",
-			"Então onde está o dinheiro, Aster? Responde-me.",
-			"Ouve, Kate, eu tenho mesmo de ir. Prometo que te trago o guito mais tarde.",
-			"Qual quê. Ou me dás o meu dinheiro agora, ou vais desta para melhor!",
-			"Recorrer à violência? Então está bem, bora lá."
+			"Ah, después de la llovizna nocturna, el aire todavía está tan fresco...",
+			"¡Momento perfecto para ir a por unos hongos!",
+			"¡Ni hablar, amiga! ¡Todavía me debes 20 euros!",
+			"Rayos, otra vez tú... ¡Ya te dije que te pago a final de semana!",
+			"Llevas una semana contándome la misma historia. Y hace dos semanas también.",
+			"Entonces, ¿dónde está el dinero, Aster? Respóndeme.",
+			"Oye, Kate, de verdad tengo que irme. Prometo que te traigo la pasta más tarde.",
+			"Ni hablar. ¡O me das mi dinero ahora, o te vas de este mundo!",
+			"¿Recurrir a la violencia? Entonces está bien, vamos allá."
 		]
 	},
 	"stageForestBoss": {
 		"stageMusic": "NemesisTheory -> Rose At Dawn",
 		"title": "",
 		"dialogue": [
-			"Bem, afinal eu era mais forte do que tu.",
-			"Uff, uff... Acho que ganhaste. Mas só desta vez!",
-			"E não te armes em durona, porra! Eu <i>vou</i> recuperar o meu dinheiro para a próxima!",
-			"Claro. Mas não precisas de voltar a ser agressiva.",
-			"Até à próxima, Kate."
+			"Bueno, al final era más fuerte que tú.",
+			"Uff, uff... Creo que has ganado. ¡Pero solo esta vez!",
+			"¡Y no te pongas chula, joder! ¡Recuperaré mi dinero la próxima vez!",
+			"Claro. Pero no hace falta que vuelvas a ser agresiva.",
+			"Hasta la próxima, Kate."
+		]
+	},
+	"stageRiver": {
+		"stageMusic": "NemesisTheory -> Rose At Meridiem",
+		"title": "~ El Río ~",
+		"dialogue": [
+			"Al final, aquella batalla fue agotadora...",
+			"Espero que, al menos ahora, no haya sorpresas.",
+			"¡Y aquí estoy yo!",
+			"...Hablé demasiado pronto. ¿Qué quieres, cabeza de chorlito?",
+			"¡¿Cómo te atreves a llamarme cabeza de chorlito?! ¡Soy hija del noble Pascal y la maga más poderosa de la región, para que lo sepas!",
+			"Élyzabeth-Rézé la Noëlle-Geneviève. Pero para ti, basta con Erlang, plebeya.",
+			"Sé perfectamente quién eres y cómo te llamas.",
+			"¡No oigo ningún temblor en tu voz!",
+			"Sea como sea, necesito probar mis nuevos trucos con alguien, así que hazme el favor y echa una mano.",
+			"Fíjate, plebeya: te lo estoy pidiendo con educación.",
+			"Otra vez no..."
+		]
+	},
+	"stageRiverBoss": {
+		"stageMusic": "NemesisTheory -> Russian Roulette",
+		"title": "",
+		"dialogue": [
+			"Tus trucos son bastante débiles, señorita Erlang.",
+			"¡No levantes la nariz, plebeya! ¡Solo porque hayas conseguido vencerme una vez, aún no significa nada!",
+			"Sí, admito mi derrota. ¡Pero sigo siendo la maga más poderosa! ¡Lo demostraré! ¡Se lo demostraré a todos!",
+			"...",
+			"Se fue sin ni siquiera despedirse."
+		]
+	},
+	"stageWasteland": {
+		"stageMusic": "NemesisTheory -> Sincere Serenity",
+		"title": "~ Páramo ~",
+		"dialogue": [
+			"Un desierto quemado en el lugar donde ardió parte del bosque... Brrr, qué lugar tan espeluznante.",
+			"¿Y cómo demonios fui a parar aquí?",
+			"SENİN BURADA BULUNMAN GEREKMEZ. BENİM TOPRAĞIMDAN GİT, YABANCI.",
+			"¡Joder, ¿pero qué eres tú?!",
+			"BEN, BU TOPRAĞIN KORUYUCUSU OLARAK, SENİN BURADA BULUNMANA İZİN VERMEM.",
+			"¡No te entiendo!",
+			"GİT, GİT. ARTIK BURASI BİZİM TOPRAK."
+		]
+	},
+	"stageWastelandBoss": {
+		"stageMusic": "NemesisTheory -> Asian Temptation",
+		"title": "",
+		"dialogue": [
+			"¡Aster, Aster! ¿Estás bien?",
+			"¡Vector! ¿Y tú qué haces aquí? ¿Y qué coño fue eso?",
+			"Es la primera vez en mi vida que veo una criatura... así.",
+			"Sí, en cuanto a eso... Hubo un imprevisto en el trabajo. Es información confidencial, pero ya que lo has visto todo...",
+			"En resumen, los Dañados se escaparon del laboratorio. Ahora andan sueltos por aquí. El que viste aún está en sus cabales. Pero cerca del puesto de control están completamente salvajes.",
+			"Por eso, de hecho, impusieron el toque de queda en la región, y no por el aumento de la delincuencia.",
+			"¡¿Qué demonios?! ¡Por poco me mata! ¡Y yo que pensaba que ya no existían!",
+			"No, hay un montón. Están experimentando con ellos en la clandestinidad.",
+			"En cualquier caso, vamos. Me ayudas a limpiar los restos en el laboratorio, de paso te hago un recorrido por mi lugar de trabajo, y quién sabe, igual hasta trabajamos juntos después. Tú necesitas dinero, ¿verdad?",
+			"No tienes derecho a negarte: amigos son amigos, pero acabas de ver algo que no debías. Nos liquidan a los dos.",
+			"Jodidos hongos, mejor me hubiera quedado en casa..."
 		]
 	}
 }

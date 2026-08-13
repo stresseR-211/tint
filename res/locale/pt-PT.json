@@ -119,7 +119,7 @@
 			"Até à próxima, Kate."
 		]
 	},
-	"stageForest": {
+	"stageRiver": {
 		"stageMusic": "NemesisTheory -> Rose At Meridiem",
 		"title": "~ O Rio ~",
 		"dialogue": [
@@ -136,7 +136,7 @@
 			"Outra vez não..."
 		]
 	},
-	"stageForestBoss": {
+	"stageRiverBoss": {
 		"stageMusic": "NemesisTheory -> Russian Roulette",
 		"title": "",
 		"dialogue": [
@@ -145,6 +145,36 @@
 			"Sim, admito a minha derrota. Mas continuo a ser a maga mais poderosa! Hei-de prová-lo! Hei-de prová-lo a todos!",
 			"...",
 			"Foi-se sem sequer se despedir."
+		]
+	},
+	"stageWasteland": {
+		"stageMusic": "NemesisTheory -> Sincere Serenity",
+		"title": "~ Deserto ~",
+		"dialogue": [
+			"Um deserto queimado no lugar da parte da floresta que ardeu... Brrr, que lugar assustador.",
+			"E como é que eu fui metida nisto?",
+			"SENİN BURADA BULUNMAN GEREKMEZ. BENİM TOPRAĞIMDAN GİT, YABANCI.",
+			"Foda-se, mas o que é que tu és?!",
+			"BEN, BU TOPRAĞIN KORUYUCUSU OLARAK, SENİN BURADA BULUNMANA İZİN VERMEM.",
+			"Não estou a perceber nada do que dizes!",
+			"GİT, GİT. ARTIK BURASI BİZİM TOPRAK."
+		]
+	},
+	"stageWastelandBoss": {
+		"stageMusic": "NemesisTheory -> Asian Temptation",
+		"title": "",
+		"dialogue": [
+			"Aster, Aster! Estás bem?",
+			"Vector! E tu, o que é que estás aqui a fazer? E que raio foi isto?",
+			"É a primeira vez na minha vida que vejo uma criatura... destas.",
+			"Pois, quanto a isso... Houve um caso de força maior no meu trabalho. É informação confidencial, mas como já viste tudo...",
+			"Enfim, os Danificados escaparam do laboratório. Agora andam por aqui a vagar. Aquele que viste ainda é razoável. Mas mais perto do posto de controlo, eles estão completamente selvagens.",
+			"É por isso, aliás, que aplicaram o recolher obrigatório na região, e não por causa do aumento da criminalidade.",
+			"Que diabos?! Ele por pouco não me matava! E eu a pensar que eles já nem existiam!",
+			"Não, há imensos. Estão a fazer experiências com eles na clandestinidade.",
+			"Seja como for, vamos embora. Ajudas-me a limpar os restos no laboratório, e aproveito para te dar uma visita guiada pelo meu local de trabalho; quem sabe até não começamos a trabalhar juntos a seguir. Tu precisas de dinheiro, não é?",
+			"Não tens o direito de recusar: amigos, amigos, negócios à parte, mas tu acabaste de ver o que não devias. Se recusares, liquidam-nos aos dois.",
+			"Malditos cogumelos, mais valia ter ficado em casa..."
 		]
 	}
 }

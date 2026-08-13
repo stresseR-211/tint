@@ -119,7 +119,7 @@
 			"See ya, Kate."
 		]
 	},
-	"stageForest": {
+	"stageRiver": {
 		"stageMusic": "NemesisTheory -> Rose At Meridiem",
 		"title": "~ The River ~",
 		"dialogue": [
@@ -136,7 +136,7 @@
 			"Not again..."
 		]
 	},
-	"stageForestBoss": {
+	"stageRiverBoss": {
 		"stageMusic": "NemesisTheory -> Russian Roulette",
 		"title": "",
 		"dialogue": [
@@ -145,6 +145,36 @@
 			"Yes, i accept my lose. But i'm still the most powerful mage! I shall prove it! I shall prove it to all!",
 			"...",
 			"Didn't even say \"goodbye\"."
+		]
+	},
+	"stageWasteland": {
+		"stageMusic": "NemesisTheory -> Sincere Serenity",
+		"title": "~ Wasteland ~",
+		"dialogue": [
+			"A scorched wasteland where once was a burnt part of the forest... Brrr, creepy little place.",
+			"How did i even manage to get here?",
+			"SINULLA EI OLE MITÄÄN ASIAA TÄNNE. HÄIVY TONTILTANI, MUUKALAINEN.",
+			"Oh my God, what the hell are you?!",
+			"MINÄ, TÄMÄN MAAN SUOJELIJANA, EN SALLI TEIDÄN OLLA TÄÄLLÄ.",
+			"I don't understand you!",
+			"HÄIVY, HÄIVY. TÄMÄ ON NYT MEIDÄN MAAMME."
+		]
+	},
+	"stageWastelandBoss": {
+		"stageMusic": "NemesisTheory -> Asian Temptation",
+		"title": "",
+		"dialogue": [
+			"Aster, Aster! Ya aright?",
+			"Vector! How did you get here? And the hell was that?",
+			"Never in my life i've seen this kinda... thing.",
+			"Yeah, about that... I had a force majeure situation at work. This is a confident information, but since you've seen everything yourself...",
+			"Long story short: the Corrupted fled from the laboratory. Now they're walking around here. That one you've seen just now is more or less sentient btw, near the military checkpoint they're kinda wild.",
+			"That is why, incidentally, a curfew was imposed in the region. It's not because of the rise in crime.",
+			"The hell?! It nearly killed me! And i thought they don't exist anymore!",
+			"Nah, there's lots of 'em. Experiments are being conducted on them in secret..",
+			"Anyway, let's go. Ya help me clean up remnants in the lab, and i give ya a tour of my workspace while we're at it—maybe we'll even end up working together later. I heard ya need the money, right?",
+			"Refusal isn't an option: friendship is one thing, but you just saw something you shouldn't have. We'll both just get eliminated.",
+			"Fucking shrooms, i'd better sit home al day..."
 		]
 	}
 }

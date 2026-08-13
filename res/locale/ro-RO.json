@@ -119,7 +119,7 @@
 			"Pe curând, Kate."
 		]
 	},
-	"stageForest": {
+	"stageRiver": {
 		"stageMusic": "NemesisTheory -> Rose At Meridiem",
 		"title": "~ Râul ~",
 		"dialogue": [
@@ -136,7 +136,7 @@
 			"Numai nu iar..."
 		]
 	},
-	"stageForestBoss": {
+	"stageRiverBoss": {
 		"stageMusic": "NemesisTheory -> Russian Roulette",
 		"title": "",
 		"dialogue": [
@@ -145,6 +145,36 @@
 			"Da, recunosc înfrângerea mea. Dar sunt încă cea mai puternică magă! O voi dovedi! Tuturor le voi dovedi!",
 			"...",
 			"A plecat fără măcar să-și spune \"la revedere\"."
+		]
+	},
+	"stageWasteland": {
+		"stageMusic": "NemesisTheory -> Sincere Serenity",
+		"title": "~ Deșert ~",
+		"dialogue": [
+			"Un deșert ars pe locul părții de pădure care a ars... Brrr, locșor înfiorător.",
+			"Și cum am ajuns eu aici?",
+			"SENİN BURADA BULUNMAN GEREKMEZ. BENİM TOPRAĞIMDAN GİT, YABANCI.",
+			"Ce ești tu, pentru numele lui Dumnezeu?!",
+			"BEN, BU TOPRAĞIN KORUYUCUSU OLARAK, SENİN BURADA BULUNMANA İZİN VERMEM.",
+			"Nu te înțeleg!",
+			"GİT, GİT. ARTIK BURASI BİZİM TOPRAK."
+		]
+	},
+	"stageWastelandBoss": {
+		"stageMusic": "NemesisTheory -> Asian Temptation",
+		"title": "",
+		"dialogue": [
+			"Aster, Aster! Ești bine?",
+			"Vector! Tu cum ai ajuns aici? Și ce a fost asta?",
+			"Eu n-am văzut în viața mea așa ceva... creatură.",
+			"Da, legat de asta... Am avut un caz de forță majoră la muncă. E informație secretă, dar din moment ce ai văzut deja...",
+			"Pe scurt, Deteriorații au evadat din laborator. Acum umblă pe aici. Cel pe care l-ai văzut tu încă e relativ normal. Dar cei de lângă punctul de control sânt complet sălbatici.",
+			"De aceea, de altfel, s-a introdus stare de asediu în regiune, nu din cauza criminalității.",
+			"Ce naiba?! Aproape că m-a ucis! Și credeam că nu mai există!",
+			"Nu, sânt destui. Se fac experimente pe ei în subteran.",
+			"Oricum, hai. Mă ajuți să cureț ce a mai rămas în laborator, îți fac și un tur al locului meu de muncă, poate chiar o să lucrăm împreună mai târziu. Tu oricum ai nevoie de bani, nu?",
+			"N-ai dreptul să refuzi: prietenia e prietenie, dar tu ai văzut acum ce nu trebuia. O să fim lichidați amândoi.",
+			"Fir-ar ciupercile ăștea, mai bine stăteam acasă..."
 		]
 	}
 }
