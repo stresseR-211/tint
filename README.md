@@ -8,7 +8,7 @@ or is it? _(vsauce music)_
 - Integrated GPU
 - 100MB spare space on hard drive
 - Windows XP SP3 (32/64-bit) | should be compatible with newer Windows versions
-- Linux (any ig)
+- Linux 6.0.0
 ### How to build:
 1) Install GCC/LLVM/MSVC, SDL2, and cmake 3.30+
 
@@ -16,7 +16,7 @@ e.g.
 ```
 sudo pacman -S gcc sdl2 cmake
 ```
-2) Execute this
+2) Execute this (it should work)
 ```
 git clone REPO
 cd ./REPO
@@ -24,4 +24,5 @@ cd ./REPO
 cmake --build ./build --target all
 ```
 ---
-this should work
+
+feet
